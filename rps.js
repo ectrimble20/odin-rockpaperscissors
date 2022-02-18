@@ -78,7 +78,7 @@ function game() {
             console.log("Round " + round + " goes to the computer!, score is " + playerScore + " to " + aiScore);
         }
     }
-    console.log("That's game folks!  The finial score is Player " + playerScore + " to Computer " + aiScore);
+    console.log("That's game folks!  The final score is Player " + playerScore + " to Computer " + aiScore);
     if(playerScore == aiScore){
         console.log("It was overall a tie");
     } else if(playerScore > aiScore){
